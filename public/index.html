@@ -113,12 +113,20 @@
 
               <div class="table-row">
                 <div class="table-cell w-1/4 px-4 pt-2 pb-3">Site Name:</div>
-                <div class="table-cell w-3/4 px-8 pt-2 pb-3">elated-stonebraker-70896a </div>
+                <div class="table-cell w-3/4 px-8 pt-2 pb-3">
+                  <a href="#" class="border-b hover:border-gray-800">elated-stonebraker-70896a</a> 
+                </div>
               </div>
 
               <div class="table-row">
                 <div class="table-cell w-1/4 px-4 pt-2 pb-3">Owner:</div>
-                <div class="table-cell w-3/4 px-8 pt-2 pb-3"><span>John Doe</span></div>
+                <div class="table-cell w-3/4 px-8 pt-2 pb-3">
+                  <button class="bg-gray-300 hover:bg-gray-400 px-4 py-2 font-medium rounded text-gray-900 flex justify-center items-center">
+                    John Doe
+                  <svg class="h-4 w-4 fill-current ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
+                  </button>
+                </div>
               </div>
 
               <div class="table-row">
@@ -128,7 +136,9 @@
 
               <div class="table-row">
                 <div class="table-cell w-1/4 px-4 pt-2 pb-3">Repository:</div>
-                <div class="table-cell w-3/4 px-8 pt-2 pb-3"><a href="github.com/tailwindcss/docs" target="_blank">github.com/tailwindcss/docs</a></div>
+                <div class="table-cell w-3/4 px-8 pt-2 pb-3">
+                  <a href="github.com/tailwindcss/docs" class="border-b hover:border-gray-800">github.com/tailwindcss/docs</a> 
+                </div>
               </div>
 
               <div class="table-row">
@@ -143,7 +153,9 @@
             </div>
 
               
-              <button id="change_s_name" class="px-6 py-3 shadow border-gray-400 border">Change site name</button>
+              <button id="change_s_name" class="px-6 py-3 hover:bg-gray-200 rounded shadow border-gray-400 border">
+                Change site name
+              </button>
           </div>
 
           <div id="add-ons" class="flex-1 bg-white rounded-lg shadow-md p-6 mb-6">
@@ -156,7 +168,8 @@
               Automatically upgrade tiers as your usage grows, paying only for what you use.
             </p>
             <p>
-              <a href="#" class="text-netly font-semibold text-lg">Learn more about pricing and usage </a>
+              <a href="#" class="text-netly hover:underline font-semibold text-lg mr-1">Learn more about pricing and usage </a>
+              <span class='text-netly fill-current rotate-40deg font-bold'>→</span>
             </p>
               
             </div>
